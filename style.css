@@ -193,9 +193,8 @@ h1 {
 
 .intro-boxes {
   color: white;
-  font-size: 1px;
+  font-size: 5px;
   margin: 30px 0;
-  position: relative;
 }
 
 .hide-box {
