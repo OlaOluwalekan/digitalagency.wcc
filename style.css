@@ -51,3 +51,234 @@ h1 {
   width: 20px;
   margin-left: 15px;
 }
+
+/* Body Styles */
+
+.body-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.photo {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.body-head1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quick-access {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  border: solid #E2E2E2 1px;
+}
+
+.body-body {
+  background: black;
+}
+
+.body-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: -17px;
+  padding: 0 10px;
+}
+
+.menu-name {
+  color: white;
+}
+
+.menu-items {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 0.5em;
+  padding: 0 5px;
+}
+
+.last-link {
+  text-decoration: none;
+  color: white;
+  font-size: 0.5em;
+  border: 1px solid turquoise;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.drop-down-icon {
+  padding-left: 3px;
+  font-size: 2px;
+}
+
+.drop-down {
+  background: turquoise;
+  width: fit-content;
+  padding: 2px 10px;
+  position: absolute;
+  display: none;
+}
+
+.drop-down-show {
+  background: turquoise;
+  width: fit-content;
+  padding: 2px 10px;
+  position: absolute;
+}
+
+.drop-down-show a {
+  display: list-item;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 0.5em;
+}
+
+.drop-down  a {
+  display: list-item;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 0.5em;
+}
+
+.body-menu-search {
+  font-size: 5px;
+}
+
+.body-intro {
+  background: url(./images/bg-flamingos2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 80vw;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: fit-content;
+}
+
+.body-intro h3 {
+  font-size: 1ex;
+  color: turquoise;
+}
+
+.body-intro h1 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.get-start {
+  text-decoration: none;
+  color: white;
+  font-size: 5px;
+  border: 1px solid turquoise;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.intro-boxes {
+  color: white;
+  font-size: 1px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.hide-box {
+  display: none;
+}
+
+.intro-boxes form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  place-items: center;
+}
+
+.intro-display-box {
+  /*text-align: center;*/
+  padding: 10px 0;
+  background: #27272B;
+}
+
+input[type=radio]:checked + .lbl-radio {
+  border: 1px solid turquoise;
+}
+
+/*.intro {
+  width: 50%;
+  margin: auto;
+}*/
+
+.intro-icon {
+  color: turquoise;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.box-label {
+  padding: 5px 0;
+}
+
+.intro-line {
+  width: 30px;
+  border-color: turquoise;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 361px) {
+  .body-intro {
+    width: 60%;
+  }
+  
+  .intro-boxes {
+    margin-top: 80px;
+  }
+  
+  .intro-boxes form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    place-content: center;
+    place-items: center;
+  }
+  
+  .intro-display-box {
+    padding: 20px 10px;
+    margin: auto;
+  }
+  
+  .body-intro h3 {
+    font-size: 1em;
+    color: turquoise;
+    margin-bottom: 20px;
+  }
+  
+  .body-intro h1 {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  .box-label {
+    font-size: 20px;
+  }
+  
+  .intro-display-box p {
+    font-size: 15px;
+  }
+}
